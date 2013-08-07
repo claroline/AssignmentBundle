@@ -1,0 +1,6 @@
+plugin:
+  has_options: false
+
+  resources:
+    - class: Claroline\AssignmentBundle\Entity\Assignment
+      name: claroline_assignment

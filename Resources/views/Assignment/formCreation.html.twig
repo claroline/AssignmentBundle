@@ -1,0 +1,10 @@
+{% include 'ClarolineCoreBundle:Resource:createForm.html.twig' %}
+
+<script type="text/javascript">
+    $('body').on('click', '.datepicker', function(event) {
+        $(event.currentTarget).datepicker('show');
+    });
+    $('body').on('changeDate', '.datepicker', function(event) {
+        $(event.currentTarget).datepicker('hide');
+    });
+</script>

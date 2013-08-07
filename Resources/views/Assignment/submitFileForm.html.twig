@@ -1,0 +1,15 @@
+{% extends 'ClarolineCoreBundle:Workspace:layout.html.twig' %}
+
+{% block section_content %}
+<form novalidate="novalidate"
+      action="{{ path('submit_file_assignment', {'assignment': _resource.getId()} ) }}"
+      method="post" {{ form_enctype(form) }}
+      id="generic-form"
+      class="form-horizontal">
+   {{ form_widget(form) }}
+   {{ form_rest(form) }}
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">{{ 'ok'|trans({}, 'platform') }}</button>
+    </div>
+</form>
+{% endblock %}

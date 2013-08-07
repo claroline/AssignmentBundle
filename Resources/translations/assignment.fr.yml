@@ -1,0 +1,9 @@
+assignment_form_name: Nom
+assignment_form_instructions: Instructions
+assignment_form_allowLateUpload: Permettre aux utilisateurs de rendre après la date de fin
+assignment_form_areWorkPublic: Rendre les travaux visible pour tout le monde
+assignment_form_startDate: Date de début
+assignment_form_endDate: Date de fin
+assignment_form_assignmentType: Type de travail
+submit_work: Soumettre un travail
+sent_works: Travaux soumis

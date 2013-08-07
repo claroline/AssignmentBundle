@@ -1,0 +1,9 @@
+assignment_form_name: Nom
+assignment_form_instructions: Instructions
+assignment_form_allowLateUpload: Allow users to submit works after end date
+assignment_form_areWorkPublic: Allow submitted work to be public
+assignment_form_startDate: Start date
+assignment_form_endDate: End date
+assignment_form_assignmentType: AssignmentType
+submit_work: Submit a work
+sent_works: Sent works

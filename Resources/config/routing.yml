@@ -1,0 +1,4 @@
+claro_assignment:
+    resource: "@ClarolineAssignmentBundle/Controller/AssignmentController.php"
+    type:     annotation
+    prefix:   /
